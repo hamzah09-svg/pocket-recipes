@@ -1,0 +1,28 @@
+body {
+  background-color: #faf7f2;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333333;
+  margin: 0;
+  padding: 24px;
+}
+
+h1 ,p{
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  flex: 1;
+  min-width: 220px;
+  max-width: 300px;
+}
