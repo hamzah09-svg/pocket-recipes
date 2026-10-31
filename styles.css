@@ -6,7 +6,8 @@ body {
   padding: 24px;
 }
 
-h1 ,p{
+h1,
+p {
   text-align: center;
 }
 
@@ -25,4 +26,7 @@ h1 ,p{
   flex: 1;
   min-width: 220px;
   max-width: 300px;
+}
+.card h2 {
+  text-align: center;
 }
